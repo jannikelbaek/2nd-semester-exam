@@ -1,0 +1,65 @@
+page-home {;
+
+  div.swiper-pagination {
+    top:7px;
+    bottom:inherit;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: #f8d747;
+
+  }
+
+  ion-slides {
+    height: 75vh !important;
+  }
+  ion-slide {
+    background-color: #000000;
+    color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  header{
+    border: solid;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-color: #1b768b;
+    border-bottom-width: 5px;
+    background-color: #000000;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #logo{
+box-sizing: border-box;
+    padding: 0 550px 0 0;
+
+  }
+
+  #icon{
+
+  }
+
+  footer {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+  }
+  #instagram, #facebook, #web {
+    text-align: center;
+    background-color: #f8d747;
+  }
+  ion-icon {
+    font-size: 75px;
+  }
+
+}
+
